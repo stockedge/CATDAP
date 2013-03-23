@@ -40,7 +40,7 @@ aic.0 <- (-2) * (sum(df.sum.freq$FreqLogFerq) - 2 * n * log(n)) + 2 * (c1 + c2 -
 aic.1 <- (-2) * (sum(df.freq$FreqLogFerq) - n * log(n)) + 2 * (c1 * c2 - 1)
 # [1] 4630.196
 aic <- aic.1 - aic.0
-# [1] 4630.196
+# [1] -526.0777
 
 ###########################################################
 # catdapのR実装
